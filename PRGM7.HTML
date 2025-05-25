@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            function a()
+            {
+                var x=document.getElementById("my input").value;
+                var y=document.getElementById("my input2").value;
+                if (x===" "|| y===" ")
+            {
+                alert ("please enter both the values");
+                return;
+            }
+            x=Number(x);
+            y=Number(y);
+            alert ("x= "+x+",y=" +y)
+            }
+        </script>
+    </head>
+    <body>
+        Enter Num1=<input type="number" id="my input"><br>
+        Enter Num2=<input type="number" id="my input2"><br>
+    </body>
+</html>
