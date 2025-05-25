@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function a()
+            {
+                var x=parseInt(document.getElementById("r").value);
+                var c=0;
+                for (var i=1;i<=x;i++)
+            {
+                if((x%i)==0)
+            {
+                c++;
+            }
+            }
+            if(c==2)
+            {
+                document.write("Prime Number");
+            }
+            else 
+            {
+                document.write("Not A Prime Number");
+            }
+            }
+        </script>
+    </head>
+    <body>
+        Enter Number to show the output<input type="text" id="r">
+        <button onclick="a()">Run</button>
+    </body>
+</html>
